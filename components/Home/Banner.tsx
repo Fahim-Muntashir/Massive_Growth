@@ -4,9 +4,9 @@ import Container from "../Shared/Container";
 
 const Banner = () => {
     return (
-        <div className="bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black">
+        <div className="bg-gradient-to-br from-white via-white to-yellow-100">
             <Container>
-                <div className="text-white flex flex-col md:flex-row items-center justify-center h-screen">
+                <div className="flex flex-col md:flex-row items-center justify-center h-screen">
                     <div className="max-w-5xl mx-auto text-left ">
                         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4">We Are Massive Growth</h1>
                         <h2 className="text-lg md:text-xl lg:text-2xl mb-6">Helping You Grow Your Agency with Web Development Services</h2>

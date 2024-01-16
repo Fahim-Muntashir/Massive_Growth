@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black `}>
+      <body className={`${inter.className}`}>
         <Nav></Nav>
         {children}
         <Footer></Footer>
