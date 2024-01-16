@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import '../globals.css'
+import Footer from '@/components/Shared/Footer'
+import Nav from '@/components/Shared/Nav'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +18,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black `}>{children}</body>
+      <body className={`${inter.className} bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black `}>
+        <Nav></Nav>
+        {children}
+        <Footer></Footer>
+      </body>
     </html>
   )
 }
