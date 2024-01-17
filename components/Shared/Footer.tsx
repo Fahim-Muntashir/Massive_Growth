@@ -5,6 +5,7 @@ const Footer = () => {
         <div>
             <footer className=" bg-gray-900 lg:grid lg:grid-cols-5">
                 <div className="relative block h-32 lg:col-span-2 lg:h-full">
+
                     <img
                         src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt=""
@@ -16,7 +17,7 @@ const Footer = () => {
                     <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
                         <div>
                             <p>
-                                <span className="text-xs uppercase tracking-wide text-gray-500 ">
+                                <span className="text-xs uppercase tracking-wide text-gray-500 text-gray-400">
                                     Call us
                                 </span>
 

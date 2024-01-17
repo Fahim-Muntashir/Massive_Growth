@@ -1,9 +1,19 @@
 import React from 'react';
+import Container from '../Shared/Container';
 
 const About = () => {
     return (
         <div className='bg-gradient-to-tr from-white via-white to-yellow-100 h-[50vh]'>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit quaerat incidunt praesentium eveniet voluptas nemo esse, inventore velit tempora ut aperiam quas!
+            <Container>
+                <div>
+                    <div>
+                        <img src="" alt="" />
+                    </div>
+                    <div>
+                        <p className='bg-primary'>About Us</p>
+                    </div>
+                </div>
+            </Container>
         </div>
     );
 };
