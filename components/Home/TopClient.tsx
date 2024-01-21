@@ -1,6 +1,6 @@
 const TopClient = () => {
     return (
-        <section className="bg-gradient-to-tr from-white via-white to-yellow-100">
+        <section className="bg-gradient-to-tr from-white via-white to-blue-100">
             <div className=" max-w-screen-xl px-4 py-8 mx-auto sm:py-12 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
                     <div className="grid p-6 bg-gray-100 rounded place-content-center sm:p-8">
@@ -47,7 +47,7 @@ const TopClient = () => {
                                 </div>
                                 <div className="p-6 pt-0">
                                     <button
-                                        className="select-none rounded-lg bg-pink-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                                        className="select-none rounded-lg bg-primary py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-primary-500/20 transition-all hover:shadow-lg hover:shadow-primary-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                                         type="button"
                                         data-ripple-light="true"
                                     >
@@ -75,7 +75,7 @@ const TopClient = () => {
                                 </div>
                                 <div className="p-6 pt-0">
                                     <button
-                                        className="select-none rounded-lg bg-pink-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                                        className="select-none rounded-lg bg-primary py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-primary-500/20 transition-all hover:shadow-lg  focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                                         type="button"
                                         data-ripple-light="true"
                                     >

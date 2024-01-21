@@ -14,7 +14,7 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       colors: {
-        primary:"#122fb8"
+        primary:"#334fdc"
       },
        animation: {
         marquee: 'marquee 25s linear infinite',

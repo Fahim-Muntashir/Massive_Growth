@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link';
 import React, { useState } from 'react';
 
 const Nav = () => {
@@ -16,13 +17,13 @@ const Nav = () => {
         <div>
             <nav className="border-gray-200 dark:bg-gray-900">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
-                    <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
-                        <img src="https://i.ibb.co/cvTBFHZ/Massive-3.png" className="h-28" alt="Flowbite Logo" />
+                    <Link href="https://massivegrowth.net/" className="flex items-center space-x-4 rtl:space-x-reverse">
+                        <img src="https://i.ibb.co/hx0BFCh/people-finance-around-the-world-logo-1.png" className="h-32" alt="Flowbite Logo" />
 
-                    </a>
+                    </Link>
                     <div className="flex items-center md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse md:hidden">
                         {isMenuOpen ? <button
-                            className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                            className="block py-2 px-3 text-white bg-primary rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
                             onClick={closeMenu}
                         >
                             Close
@@ -44,7 +45,7 @@ const Nav = () => {
 
 
                     <div className='flex items-center md:order-2 hidden md:block'>
-                        <button className="btn bg-[#00eeff] py-2 px-6 md:px-10 font-bold rounded-lg text-black ">Contact Now</button>
+                        <button className="btn bg-primary text-white py-2 px-6 md:px-10 font-bold rounded-lg text-black ">Contact Now</button>
                     </div>
 
 

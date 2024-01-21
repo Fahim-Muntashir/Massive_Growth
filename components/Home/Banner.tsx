@@ -4,7 +4,7 @@ import Container from "../Shared/Container";
 
 const Banner = () => {
     return (
-        <div className="bg-gradient-to-br from-white via-white to-yellow-100">
+        <div className="bg-gradient-to-br from-white via-white to-blue-100">
             <Container>
                 <div className="flex flex-col lg:mx-32 md:flex-row items-center justify-center h-screen">
                     <div className="max-w-5xl mx-auto text-left">
@@ -16,7 +16,7 @@ const Banner = () => {
                             We specialize in creating responsive, user-friendly websites that drive growth and success.
                             Partner with us for a transformative online experience.
                         </p>
-                        <button className="btn bg-[#00eeff] py-2 px-6 md:px-10 font-bold rounded-lg text-black mb-8">
+                        <button className="btn bg-[#334fdc] py-2 text-white px-6 md:px-10 font-bold rounded-lg text-black mb-8">
                             Get Started Now
                         </button>
                     </div>
